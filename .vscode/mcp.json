@@ -1,11 +1,17 @@
 {
-  "servers": {
-    "Homebrew": {
-      "type": "stdio",
-      "command": "brew",
-      "args": [
-        "mcp-server"
-      ]
-    }
-  }
+	"servers": {
+		"Homebrew": {
+			"type": "stdio",
+			"command": "brew",
+			"args": [
+				"mcp-server"
+			]
+		},
+		"my-mcp-server-2c7a3bdf": {
+			"type": "stdio",
+			"command": "run",
+			"args": []
+		}
+	},
+	"inputs": []
 }
